@@ -4,8 +4,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, {useState} from 'react'
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 function Navbar() {
@@ -55,7 +55,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4'>let's build something epic together</p>
+                        <p className='w-[85%] md:w-[90%] py-4'>let&aposs build something epic together</p>
                     </div>
                 </div>
                 <div className='py-4 felx flex-col'>
@@ -77,7 +77,7 @@ function Navbar() {
                         </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+                        <p className='uppercase tracking-widest text-[#5651e5]'>Let&aposs Connect</p>
                         <div className='flex items-center justify-between'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <FaLinkedin/>
