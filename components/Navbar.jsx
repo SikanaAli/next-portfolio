@@ -21,7 +21,8 @@ function Navbar() {
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-            <Image src="/assets/navLogo.png" alt='logo' width={60} height={25} />
+            {/* <Image src="/assets/navLogo.png" alt='logo' width={60} height={25} /> */}
+            <h2 className='uppercase text-[#5651e5]'>a.sikana</h2>
             <div>
                 <ul className='hidden md:flex'>
                     <Link href='/' >
@@ -51,7 +52,8 @@ function Navbar() {
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <Image src='/assets/navLogo.png' alt="/" width={50} height={25}/>
+                        {/* <Image src='/assets/navLogo.png' alt="/" width={50} height={25}/> */}
+                        <h2 className='uppercase text-[#5651e5]'>a.sikana</h2>
                         <div onClick={navHandler} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose/>
                         </div>
