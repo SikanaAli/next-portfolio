@@ -1,7 +1,6 @@
 
 "use client";
 
-/*eslint quotes: ["error", "single"]*/
 
 import Image from 'next/image'
 import Link from 'next/link'
