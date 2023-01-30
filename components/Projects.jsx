@@ -27,7 +27,7 @@ function Projects() {
           <ProjectItem
             title={"Google UI Clone"}
             backgroundImg={googleUiClone}
-            projectType={"HTML & CSS"}
+            projectType={"HTML &apos; CSS"}
           />
         </div>
       </div>
