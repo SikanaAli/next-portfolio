@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const assetLocation = "/../public/assets/skills";
+const assetLocation = "/assets/skills";
 
 const skillAssets = [
   { img: `${assetLocation}/html.png`, name: "HTML" },
