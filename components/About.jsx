@@ -11,7 +11,7 @@ export default function About() {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            // I am not you regular developer
+            {"// I am not you regular developer"}
           </p>
           <p className="py-2 text-gray-600">
             Growing up I had always enjoyed playing videogames; the more I
@@ -43,7 +43,7 @@ export default function About() {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img className="rounded-xl" src="/assets/profile_img.jpg" />
+          <img className="rounded-xl" src="/assets/profile_img.jpg" alt="" />
         </div>
       </div>
     </div>
