@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import deserter2d from "../public/assets/projects/deserter2d.jpg";
-import publicApis from "../public/assets/projects/public_apis.png";
-import googleUiClone from "../public/assets/projects/googleUiClone.png";
+import deserter2dImg from "../public/assets/projects/deserter2d.jpg";
+import publicApisImg from "../public/assets/projects/public_apis.png";
+import googleUiCloneImg from "../public/assets/projects/googleUiClone.png";
 import ProjectItem from "./ProjectItem";
 
 function Projects() {
@@ -16,18 +16,21 @@ function Projects() {
         <div className=" grid md:grid-cols-2 gap-8">
           <ProjectItem
             title={"Dserter 2D"}
-            backgroundImg={deserter2d}
+            backgroundImg={deserter2dImg}
             projectType={"Unity"}
+            projectUrl={"/dserter2d"}
           />
           <ProjectItem
             title={"Public Apis"}
-            backgroundImg={publicApis}
+            backgroundImg={publicApisImg}
             projectType={"NextJS"}
+            projectUrl={"/publicapis"}
           />
           <ProjectItem
             title={"Google UI Clone"}
-            backgroundImg={googleUiClone}
+            backgroundImg={googleUiCloneImg}
             projectType={"HTML & CSS"}
+            projectUrl={"/googleclone"}
           />
         </div>
       </div>

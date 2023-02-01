@@ -4,18 +4,18 @@ import React from "react";
 const assetLocation = "/assets/skills";
 
 const skillAssets = [
-  { img: `${assetLocation}/html.png`, name: "HTML" },
-  { img: `${assetLocation}/csharp.png`, name: "C-Sharp" },
-  { img: `${assetLocation}/nodejs.png`, name: "JavaScrip" },
-  { img: `${assetLocation}/nextjs.png`, name: "NextJS" },
-  { img: `${assetLocation}/mssql.png`, name: "Microsft SQL" },
-  { img: `${assetLocation}/postgres.png`, name: "PostgreSQL" },
-  { img: `${assetLocation}/firebase.png`, name: "Firbase" },
-  { img: `${assetLocation}/flutter.png`, name: "Flutter" },
-  { img: `${assetLocation}/dart.png`, name: "Dart" },
-  { img: `${assetLocation}/arduino.png`, name: "Arduino" },
-  { img: `${assetLocation}/circuit.png`, name: "CircuitPyhton" },
-  { img: `${assetLocation}/python.png`, name: "Python" },
+  { imgLocation: `${assetLocation}/html.png`, name: "HTML" },
+  { imgLocation: `${assetLocation}/csharp.png`, name: "C-Sharp" },
+  { imgLocation: `${assetLocation}/nodejs.png`, name: "JavaScrip" },
+  { imgLocation: `${assetLocation}/nextjs.png`, name: "NextJS" },
+  { imgLocation: `${assetLocation}/mssql.png`, name: "Microsft SQL" },
+  { imgLocation: `${assetLocation}/postgres.png`, name: "PostgreSQL" },
+  { imgLocation: `${assetLocation}/firebase.png`, name: "Firbase" },
+  { imgLocation: `${assetLocation}/flutter.png`, name: "Flutter" },
+  { imgLocation: `${assetLocation}/dart.png`, name: "Dart" },
+  { imgLocation: `${assetLocation}/arduino.png`, name: "Arduino" },
+  { imgLocation: `${assetLocation}/circuit.png`, name: "CircuitPyhton" },
+  { imgLocation: `${assetLocation}/python.png`, name: "Python" },
 ];
 
 function Skills() {
@@ -35,7 +35,12 @@ function Skills() {
               >
                 <div className="grid grid-cols-2 gap-4 justify-center items-center">
                   <div className="m-auto">
-                    <Image src={item.img} width={64} height={64} alt="/" />
+                    <Image
+                      src={item.imgLocation}
+                      width={64}
+                      height={64}
+                      alt="/"
+                    />
                   </div>
                   <div className="flex flex-col items-center justify-center">
                     <h3>{item.name}</h3>
