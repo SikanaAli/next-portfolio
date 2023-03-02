@@ -39,25 +39,25 @@ function Navbar() {
         <h2 className="uppercase text-[#5651e5]">a.sikana</h2>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <a href="#hero">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link href="/#about">
+            </a>
+            <a href="#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="/#skills">
+            </a>
+            <a href="#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skils</li>
-            </Link>
-            <Link href="/#projects">
+            </a>
+            <a href="#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
-            </Link>
-            <Link href="#contact">
+            </a>
+            <a href={"#contact"}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
-            </Link>
+            </a>
           </ul>
           <div onClick={navHandler} className="md:hidden">
             <AiOutlineMenu size={25} />
