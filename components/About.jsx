@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -38,9 +39,11 @@ export default function About() {
             I now spend my time Building projects with NextJS, Superbase and
             learning new technologies
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            check out some of my latest projects
-          </p>
+          <a href="#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              check out some of my latest projects
+            </p>
+          </a>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img className="rounded-xl" src="/assets/profile_img.jpg" alt="" />
