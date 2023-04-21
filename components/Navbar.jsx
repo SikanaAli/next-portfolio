@@ -30,7 +30,7 @@ function Navbar() {
 		<div
 			className={
 				shadow
-					? "fixed bg-[#ecf0f3] w-full h-20 shadow-xl z-[100]"
+					? "fixed bg-[#E4DFFC] w-full h-20 shadow-xl z-[100]"
 					: "fixed  w-full h-20 z-[100]"
 			}
 		>

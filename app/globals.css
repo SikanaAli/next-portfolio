@@ -38,3 +38,15 @@ html {
 		@apply shadow-xl text-white shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff];
 	}
 }
+
+@layer utilities {
+	.animation-delay-2000 {
+		animation-delay: 2s;
+	}
+	.animation-delay-4000 {
+		animation-delay: 4s;
+	}
+	.animation-delay-8000 {
+		animation-delay: 6s;
+	}
+}

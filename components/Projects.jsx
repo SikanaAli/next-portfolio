@@ -10,18 +10,21 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 const projectItems = [
 	<ProjectItem
+		key={0}
 		title={"Dserter 2D"}
 		backgroundImg={deserter2dImg}
 		projectType={"Unity"}
 		projectUrl={"/dserter2d"}
 	/>,
 	<ProjectItem
+		key={1}
 		title={"Public Apis"}
 		backgroundImg={publicApisImg}
 		projectType={"NextJS"}
 		projectUrl={"/publicapis"}
 	/>,
 	<ProjectItem
+		key={2}
 		title={"Google UI Clone"}
 		backgroundImg={googleUiCloneImg}
 		projectType={"HTML & CSS"}
@@ -30,52 +33,35 @@ const projectItems = [
 ];
 
 function Projects() {
-	const [currentItem, setCurrentItem] = useState(0);
-
-	const nextProjectitem = () => {
-		const temp = currentItem + 1;
-
-		if (temp > projectItems.length - 1) {
-			setCurrentItem(0);
-		} else {
-			setCurrentItem(currentItem + 1);
-		}
-	};
-
-	const previousProjectItem = () => {
-		const temp = currentItem;
-
-		if (temp < projectItems.length - 1) {
-			setCurrentItem(0);
-		} else {
-			setCurrentItem(currentItem + 1);
-		}
-	};
-
 	return (
-		<div id="projects" className="w-full">
+		<div
+			id="projects"
+			className="w-full relative bg-gradient-to-b py-16 from-[#7FE17F] to-[#f1f1eb]"
+		>
 			<div className="max-w-[1240px] mx-auto px-2 py-16">
 				<p className="text-xl tracking-widest uppercase text-[#5651e5]">
 					Projects
 				</p>
 				<h2 className=" pt-4 pb-10">What I&apos;ve Built</h2>
 
-				<div className="w-full ">
-					<div className="flex justify-center items-center duration-500 rounded-2xl">
-						{projectItems[currentItem]}
-					</div>
-					{/* Left Arrow */}
-					<div className="absolute -top-[-345%]  -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-2xl p-2 bg-black/20 text-white cursor-pointer">
-						<BsChevronCompactLeft size={30} />
-					</div>
-					{/* Right Arrow */}
-					<div className="absolute -top-[-345%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-2xl p-2 bg-black/20 text-white cursor-pointer">
-						<BsChevronCompactRight
-							size={30}
-							onClick={nextProjectitem}
-						/>
-					</div>
+				<div className="grid md:grid-cols-2 gap-8">
+					{projectItems.map((item, i) => {
+						return item;
+					})}
 				</div>
+			</div>
+			<div className="absolute w-full bottom-0 left-0 overflow-hidden leading-[0]">
+				<svg
+					data-name="Layer 1"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 1200 120"
+					preserveAspectRatio="none"
+				>
+					<path
+						d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+						className="fill-white"
+					></path>
+				</svg>
 			</div>
 		</div>
 	);
