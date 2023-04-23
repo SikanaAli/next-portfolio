@@ -53,7 +53,7 @@ function Navbar() {
 						</a>
 						<a href="#skills">
 							<li className="ml-10 text-sm uppercase hover:border-b">
-								Skils
+								Skills
 							</li>
 						</a>
 						<a href="#projects">
