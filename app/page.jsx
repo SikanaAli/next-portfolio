@@ -4,16 +4,17 @@ import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import ConstructionBunner from "../components/constructionBunner";
 
 export default function IndexPage() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </>
-  );
+	return (
+		<>
+			<Navbar />
+			<Hero />
+			<About />
+			<Skills />
+			<Projects />
+			<Contact />
+		</>
+	);
 }

@@ -4,8 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { BsWhatsapp } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import ConstructionBunner from "./constructionBunner";
 
 function Navbar() {
 	const [nav, setNav] = useState(false);
@@ -36,6 +37,7 @@ function Navbar() {
 		>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
 				{/* <Image src="/assets/navLogo.png" alt='logo' width={60} height={25} /> */}
+				<ConstructionBunner />
 				<Link href="/">
 					<h2 className="uppercase text-[#5651e5]">a.sikana</h2>
 				</Link>
@@ -128,18 +130,32 @@ function Navbar() {
 								Let&apos;s Connect
 							</p>
 							<div className="flex items-center justify-between">
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								<Link
+									className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+									href={
+										"https://www.linkedin.com/in/alinaswe-sikana/"
+									}
+								>
 									<FaLinkedin />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								</Link>
+								<Link
+									className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+									href={"https://github.com/SikanaAli"}
+								>
 									<FaGithub />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								</Link>
+								<Link
+									className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+									href={"mailto:sikanaalinaswe@gmail.com"}
+								>
 									<AiOutlineMail />
-								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<BsFillPersonLinesFill />
-								</div>
+								</Link>
+								<Link
+									className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+									href={"https://wa.me/260771231901"}
+								>
+									<BsWhatsapp />
+								</Link>
 							</div>
 						</div>
 					</div>

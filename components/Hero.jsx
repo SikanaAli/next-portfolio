@@ -59,7 +59,7 @@ export default function Hero() {
 					</div>
 				</div>
 			</div>
-			<div class="absolute w-full bottom-0 left-0 overflow-hidden leading-[0] rotate-180">
+			<div className="absolute w-full bottom-0 left-0 overflow-hidden leading-[0] rotate-180">
 				<svg
 					data-name="Layer 1"
 					xmlns="http://www.w3.org/2000/svg"
