@@ -31,7 +31,7 @@ export default function Hero() {
 					</p>
 					<div className="flex z-10 items-center justify-between max-w-[330px] m-auto py-4">
 						<Link
-							className="bg-white z-10 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+							className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
 							href={
 								"https://www.linkedin.com/in/alinaswe-sikana/"
 							}
@@ -39,19 +39,19 @@ export default function Hero() {
 							<FaLinkedin />
 						</Link>
 						<Link
-							className="bg-white z-10 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+							className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
 							href={"https://github.com/SikanaAli"}
 						>
 							<FaGithub />
 						</Link>
 						<Link
-							className="bg-white z-10 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+							className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
 							href={"mailto:sikanaalinaswe@gmail.com"}
 						>
 							<AiOutlineMail />
 						</Link>
 						<Link
-							className="bg-white z-10 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+							className="bg-white z-10 mix-blend-multiply hover:mix-blend-normal rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
 							href={"https://wa.me/260771231901"}
 						>
 							<BsWhatsapp />
@@ -59,7 +59,7 @@ export default function Hero() {
 					</div>
 				</div>
 			</div>
-			<div class="absolute w-full bottom-0 left-0 overflow-hidden leading-[0] rotate-180">
+			<div className="absolute w-full bottom-0 left-0 overflow-hidden leading-[0] rotate-180">
 				<svg
 					data-name="Layer 1"
 					xmlns="http://www.w3.org/2000/svg"
