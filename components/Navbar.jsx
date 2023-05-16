@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import ConstructionBunner from "./constructionBunner";
+import ConstructionBunner from "./ConstructionBunner";
 
 function Navbar() {
 	const [nav, setNav] = useState(false);
