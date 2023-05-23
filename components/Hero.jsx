@@ -24,7 +24,7 @@ export default function Hero() {
 						Hi, I&apos;m{" "}
 						<span className="text-[#5651e5]">Alinaswe</span>
 					</h1>
-					<h1 className="py-2 text-gray-700">A Softaware Engineer</h1>
+					<h1 className="py-2 text-gray-700">A Software Engineer</h1>
 					<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 						Requirements Engineer, Internet of Things (IoT)
 						Enthusiast, Back-End Developer, Front-End Developer

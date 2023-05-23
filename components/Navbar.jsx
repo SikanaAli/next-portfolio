@@ -44,27 +44,27 @@ function Navbar() {
 				<div>
 					<ul className="hidden md:flex">
 						<a href="#hero">
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm uppercase font-bold hover:border-b">
 								Home
 							</li>
 						</a>
 						<a href="#about">
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm uppercase font-bold hover:border-b">
 								About
 							</li>
 						</a>
 						<a href="#skills">
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm uppercase font-bold hover:border-b">
 								Skills
 							</li>
 						</a>
 						<a href="#projects">
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm uppercase font-bold hover:border-b">
 								Projects
 							</li>
 						</a>
 						<a href={"#contact"}>
-							<li className="ml-10 text-sm uppercase hover:border-b">
+							<li className="ml-10 text-sm uppercase font-bold hover:border-b">
 								Contact
 							</li>
 						</a>
