@@ -37,17 +37,15 @@ function HeroPatern() {
 			id="heroParticals"
 			init={intiParticales}
 			loaded={particlesLoaded}
-			className="z-0 "
-			canvasClassName="dark:bg-black bg-white"
+			className="fixed z-0 w-screen h-screen top-0 bottom-0"
+			canvasClassName="dark:bg-black bg-white z-0"
 			options={{
-                background:{
-                    color:{
-                        value: particlBgColor
-                    }
-                },
-				style: {
-					zIndex: "0",
+				background: {
+					color: {
+						value: particlBgColor,
+					},
 				},
+				
 				fpsLimit: 75,
 				interactivity: {
 					events: {

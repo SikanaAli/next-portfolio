@@ -1,0 +1,1 @@
+export const skillAssetLocation = "/assets/images/skills";
